@@ -1,0 +1,57 @@
+#slogan{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid orange;
+    font-size: 0.8em;
+    background-color: rgba(255, 165, 0, 0.15);
+    padding: 1.2em;
+    color: darkslategray;
+}
+body{
+    margin: 0;
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+h1{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#title{
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img-container{
+    display: flex;
+    justify-content: center;
+}
+figcaption{
+    text-align: center;
+    opacity: 0.8;
+}
+#focaccia{
+    border-radius: 10px;
+}
+#feature{
+    background-color: rgba(255, 165, 0, 0.15);
+    border-left: 2px solid orange;
+    text-align: start;
+}
+footer{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: darkslategray;
+}
